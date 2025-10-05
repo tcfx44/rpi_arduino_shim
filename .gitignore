@@ -1,0 +1,49 @@
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.la
+*.lai
+*.lib
+
+# Executables
+*.exe
+*.out
+lib_test
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# CMake build directories and files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+
+# IDE specific files
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files
+*~
+*.tmp
+
+# Library directories
+ICM42688/
