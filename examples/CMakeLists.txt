@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(LIB_PATH "Path to finani/ICM42688 repository (root)" "../../ICM42688")
 option(USE_SPI "Build with SPI support" ON)
 
-include_directories(${PROJECT_SOURCE_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/src)
 include_directories(${LIB_PATH}/src)
 
 file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/examples/*.cpp)

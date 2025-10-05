@@ -1,7 +1,7 @@
 # Simple Makefile for building the example on Raspberry Pi OS (C++17)
 CXX := g++
 LIB_PATH ?= ../ICM42688
-CXXFLAGS := -std=gnu++17 -I.. -I$(LIB_PATH)/src -O2 -Wall
+CXXFLAGS := -std=gnu++17 -I../src -I$(LIB_PATH)/src -O2 -Wall
 LDFLAGS := -lpthread
 
 SRCS := $(wildcard *.cpp) $(LIB_PATH)/src/ICM42688.cpp
